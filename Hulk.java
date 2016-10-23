@@ -1,13 +1,4 @@
-import java.util.*;
-public class Hulk {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int no = sc.nextInt();
-        String ret = h(no);
-        System.out.println(ret);
-    }
-    
+public class Hulk {  
     public static String h(int no){
     	String feeling1 = "I hate";
         String feeling2 = "I love";
